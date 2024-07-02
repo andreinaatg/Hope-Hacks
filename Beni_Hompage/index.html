@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <div className="App">
+        <header className="App-header">
+          
+          <!-- Navbar  -->  
+          <nav>
+            <ul>
+              <li><a href="#home">Home</a></li>
+              <li><a href="#about">impact</a></li>
+              <li><a href="#impact">Impact</a></li>
+              <li><a href="#solutions">Solutions</a></li>
+              <li><a href="#contact">Contact Us</a></li>
+            </ul>
+          </nav>
+        </header>
+  
+       <!-- Hero Section -->  
+        <section id="home">
+          <h1>Air Pollution: A Silent Killer</h1>
+          <p>Learn more about the causes, effects, and solutions to air pollution.</p>
+          <button>Learn More</button>
+        </section>
+  
+  <!--About us and Mission statement -->  
+  <section id="about-mission">
+    <div className="about">
+      <h2>About Us</h2>
+      <p>
+        Welcome to our air pollution awareness platform. Our mission is to educate and advocate for cleaner air through understanding,
+        action, and community engagement. Air pollution poses significant health and environmental risks globally, affecting millions of lives each year. 
+        Through our platform, we aim to raise awareness about the causes, impacts, and solutions to air pollution, empowering individuals and communities to take informed actions towards cleaner air and a healthier future.
+      </p>
+      <div className="image-container">
+        <img src={aboutImage} alt="About Us" />
+      </div>
+    </div>
+    <div className="mission">
+      <h2>Our Mission</h2>
+      <p>
+      At AirAware our mission is to combat air pollution and its detrimental effects on health, the environment,
+       and the quality of life. We are committed to: Raising Awareness: Educating the public about the sources and impacts of air pollution through accessible information and resources.
+   
+      </p>
+      <video width="100%" controls>
+      <source src='Images/mission-video.mp4' type="video/mp4" />
+      Your browser does not support the video tag.
+    </video>
+    </div>
+  </section>
+  
+  
+  <!-- Impact  -->  
+   <section id="impact">
+          <div className="impact-content">
+            <h2>Impact of Air Pollution</h2>
+            <p>
+              Air pollution has far-reaching consequences on human health, ecosystems, and the economy. 
+              It contributes to respiratory diseases, cardiovascular problems, and even premature deaths. Environmental impacts include acid rain, smog formation, and climate change acceleration. Economically, 
+              air pollution leads to healthcare costs and productivity losses. Addressing air quality is crucial for sustainable development and public health.
+            </p>
+          </div>
+        </section>
+  
+  
+        <section className="solutions">
+    <div className="solution-box">
+      <h3>Solution</h3>
+      <img src={solution1} alt="Solution 1 Image" />
+      <p>
+        Improving Public Transportation: Enhancing public transportation systems and infrastructure promotes
+        the use of buses, trains, and electric vehicles, reducing the number of individual cars on the road.
+      </p>
+    </div>
+    <div className="solution-box">
+      <h3>Solution</h3>
+      <img src={solution2} alt="Solution 2 Image" />
+      <p>
+        Plant Trees: Planting trees helps absorb carbon dioxide and other pollutants,
+        improving air quality in cities and neighborhoods.
+      </p>
+    </div>
+    <div className="solution-box">
+      <h3>Solution</h3>
+      <img src={solution3} alt="Solution 3 Image" />
+      <p>
+        Use Clean Energy: Switching to cleaner energy sources like solar and wind power 
+        reduces harmful emissions from burning fossil fuels.
+      </p>
+    </div>
+    <div className="solution-box">
+      <h3>Solution</h3>
+      <img src={solution4} alt="Solution 4 Image" />
+      <p>
+        Recycle and Reduce Waste: Recycling and reducing waste decrease 
+        the need for producing new materials, which cuts down on industrial pollution.
+      </p>
+    </div>
+  </section>
+  
+         {/* Footer */}
+         <footer>
+          <p>&copy; 2024 Your Company. All rights reserved.</p>
+        </footer>
+      </div>
+</body>
+</html>
